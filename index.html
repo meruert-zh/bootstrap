@@ -4,60 +4,538 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Курс по компьютерной сборке</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row align-items-start">
-          <div class="col">
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-secondary">Secondary</button>
-            <button type="button" class="btn btn-success main-ofd-button">Success</button>
-            <button type="button" class="btn btn-danger">Danger</button>
-            <button type="button" class="btn btn-warning">Warning</button>
-            <button type="button" class="btn btn-info">Info</button>
-            <button type="button" class="btn btn-light">Light</button>
-            <button type="button" class="btn btn-dark">Dark</button>
-            <button type="button" class="btn btn-link">Link</button>
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
+    <div class="container-fluid s-bg">
+      <!-- Navbar -->
+      <div class="row s-navbar s-pt-20">
+        <div class="col-2">
+          <img src="images/icons/logo.svg" alt="Logo">
         </div>
-        <div class="row align-items-center">
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
+        <div class="col-8">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">              
+              <div class="collapse navbar-collapse pe-5" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item me-5">
+                    <a class="s-link" href="#" >Главная</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="s-link" href="#">Курсы</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="s-link" href="#">Расписание</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="s-link" href="#">Преподаватели</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="s-link" href="#">Рассылка</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="s-link" href="#">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
-        <div class="row align-items-end">
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
+        <div class="col-2">
+          <button type="button" class="btn btn-primary s-button-1">Зайти в кабинет</button>
+        </div>
+      </div>
+      <!-- Navbar -->
+      
+      <!-- Name block -->
+        <div class="row row-cols-4 s-mb-50">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <div class="row">
+              <div class="row row-cols-1">
+                <div class="col s-name s-mb-50 s-mt-200">Первый курс 
+                  по компьютерной сборке</div>
+                <div class="col">
+                  <div class="row">
+                    <div class="col-3 col-sm-2 s-square me-5">
+                      <div class="s-bold">18</div> <div class="s-grey">дней</div>
+                    </div>
+                    <div class="col-3 col-sm-2 s-square me-5">
+                      <div class="s-bold">18</div> <div class="s-grey">часов</div>
+                    </div>
+                    <div class="col-3 col-sm-2 s-square me-5">
+                      <div class="s-bold">18</div> <div class="s-grey">минут</div>
+                    </div>
+                    <div class="col-3 col-sm-2 s-square">
+                      <div class="s-bold">18</div> <div class="s-grey">секунд</div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div></div>
+          <div class="col-2"></div>
+        </div>
+      <!-- Name block -->
+      
+      <!-- Заказать -->
+      <div class="row row-cols-4 s-mt-200 s-order">
+        <div class="col-2"></div>
+        <div class="col-2 s-mb-50 s-mt-50">
+          <button type="button" class="btn btn-primary s-button-2">Заказать курс</button>
+        </div>
+        <div class="col-2">
+            <div class="row row-cols-1 s-mt-50">
+              <div class="col s-link">Учеников всего: 200 </div>
+              <div class="col s-link">Успешно закончили курс: 190</div>
+            </div>           
+        </div>
+        <div class="col-4 s-link s-mt-50">Заработано учениками: 400 000 &#8381</div>
+        <div class="col-2"></div>
+      </div>
+      <!-- Заказать -->
+    </div>
+
+    
+    <div class="container-fluid s-main">
+      <!-- Описание -->
+      <div class="row">
+        <div class="col">
+          <div class="row row-cols-4">
+            <div class="col-2">
+             
+            </div>
+            <div class="col-8">
+              <div class="row s-mt-200">
+                <div class="col-6 s-image">
+                  
+                </div>
+                <div class="col-6">
+                  <p class="s-main-text s-mb-50">Чем мы занимаемся?</p>
+                  <p class="s-mb-200 s-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat elit augue in suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et neque, adipiscing sapien sem senectus praesent aenean consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit, sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum placerat nisi, lobortis. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-2">
+              
+            </div>
           </div>
         </div>
       </div>
-      
+      <!-- Описание -->
 
-      <script>
-        alert( "Я JavaScript!" );
-      </script>
-      
+      <!-- Быстрый старт -->
+      <div class="row s-mt-50">
+        <div class="col-2">
+          
+        </div>
+        <div class="col-8">
+          <div class="row row-cols-1">
+            <div class="col">
+              <div class="row row-cols-1">
+                <div class="col s-main-text s-mb-50">
+                  <div class="row row-cols-2">
+                    <div class="col-1 s-start">
+                      
+                    </div>
+                    <div class="col-11">
+                      Быстрый старт
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="col s-grey">
+                  Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+                </div>
+              </div>
+            </div>
+            <div class="col s-mt-50">
+              <div class="row row-cols-4 s-mb-20">
+                <div class="col s-bold s-text">
+                  100%
+                </div>
+                <div class="col s-bold s-text">
+                  75%
+                </div>
+                <div class="col s-bold s-text">
+                  50%
+                </div>
+                <div class="col s-bold s-text">
+                  Итог
+                </div>
+              </div>
+              <div class="row row-cols-4 s-mb-20 s-height">
+                <div class="col s-100 s-img-0">
+                  
+                </div>
+                <div class="col s-75 s-img-1">
+                  
+                </div>
+                <div class="col s-50 s-img-0">
+                  
+                </div>
+                <div class="col s-20 s-img-1">
+                  
+                </div>
+              </div>
+              <div class="row row-cols-4 s-mb-200">
+                <div class="col s-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                </div>
+                <div class="col s-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                </div>
+                <div class="col s-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                </div>
+                <div class="col s-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          
+        </div>
+      </div>
+      <!-- Быстрый старт -->
+
+      <!-- Профессия -->
+      <div class="row row-cols-1">
+        <div class="col">
+          <div class="row">
+            <div class="col-2">
+              
+            </div>
+            <div class="col-8 s-main-text">
+              Получите профессию прямо сейчас
+            </div>
+            <div class="col-2">
+            
+            </div>
+          </div> 
+        </div>
+        <div class="col">
+          <div class="row row-cols-1">
+            <div class="col">
+              <div class="row">
+                <div class="col-2">
+                  
+                </div>
+                <div class="col-8 s-mt-50">
+                  <div class="row row-cols-3 s-mb-50">
+                    <div class="col-4 s-icon-1">
+                      
+                    </div>
+                    <div class="col-4 s-icon-2">
+                      
+                    </div>
+                    <div class="col-4 s-icon-3">
+                      
+                    </div>
+                  </div>
+                  <div class="row row-cols-3 s-mb-50">
+                    <div class="col-4 s-text-align s-text">
+                      Только практические навыки в работе
+                    </div>
+                    <div class="col-4 s-text-align s-text">
+                      Работа на самом современном оборудовании
+                    </div>
+                    <div class="col-4 s-text-align s-text">
+                      Сертификация по окончании обучения
+                    </div>
+                  </div>
+                  <div class="row row-cols-3 s-mt-100 s-mb-50">
+                    <div class="col-4 s-text-align s-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                    </div>
+                    <div class="col-4 s-text-align s-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                    </div>
+                    <div class="col-4 s-text-align s-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">                  
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      <!-- Профессия -->
+
+      <!-- Партнеры -->
+      <div class="row row-cols-1">
+        <div class="col">
+          <div class="row">
+            <div class="col-2">
+              
+            </div>
+            <div class="col-8">
+              <div class="row row-cols-1 s-mt-100 s-mb-50">
+                <div class="col">
+                  <div class="row">
+                    <div class="col-1 s-end">
+
+                    </div>
+                    <div class="col-11 s-main-text">
+                      Партнеры - Топовые бренды
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="row row-cols-4">
+                <div class="col s-partners">
+                  
+                </div>
+                <div class="col s-partners">
+                  
+                </div>
+                <div class="col s-partners">
+                  
+                </div>
+                <div class="col s-partners">
+                  
+                </div>
+              </div>
+              <div class="row row-cols-4 s-mb-50">
+                <div class="col s-partners">
+                  
+                </div>
+                <div class="col s-partners">
+                  
+                </div>
+                <div class="col s-partners">
+                  
+                </div>
+                <div class="col s-partners">
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-2">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Партнеры -->
+
+      <!-- Программа обучения -->
+      <div class="row s-mt-50">
+        <div class="col-4 ">
+
+        </div>
+        <div class="col-4 ">
+          <div class="row row-cols-1">
+            <div class="col s-main-text s-mt-50">
+              Программа обучения
+            </div>
+            <div class="col s-text s-mt-50">
+              Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+            </div>
+          </div>
+          <div class="row row-cols-2 s-mt-50">
+            <div class="col ">
+              <div class="row row-cols-1">
+                <div class="col s-text">
+                  Неделя №1
+                </div>
+                <div class="col s-text">
+                  Красивая часть курса, которая помогает в успехе
+                </div>
+              </div>              
+            </div>
+            <div class="col">
+
+            </div>
+          </div>
+          <div class="row row-cols-2">
+            <div class="col">
+              
+            </div>
+            <div class="col s-text">
+              Красивая часть курса, которая помогает в успехе
+            </div>
+          </div>
+          <div class="row row-cols-2">
+            <div class="col s-text">
+              Красивая часть курса, которая помогает в успехе
+            </div>
+            <div class="col">
+
+            </div>
+          </div>
+          <div class="row row-cols-2">
+            <div class="col">
+              
+            </div>
+            <div class="col s-text">
+              Красивая часть курса, которая помогает в успехе
+            </div>
+          </div>
+          <div class="row row-cols-2">
+            <div class="col s-text">
+              Красивая часть курса, которая помогает в успехе
+            </div>
+            <div class="col">
+  
+            </div>
+          </div>
+          <div class="row row-cols-2">
+            <div class="col">
+              
+            </div>
+            <div class="col s-text">
+              Красивая часть курса, которая помогает в успехе
+            </div>
+          </div>
+          <div class="row row-cols-2">
+
+            <div class="col s-text">
+              Красивая часть курса, которая помогает в успехе
+            </div>
+            <div class="col">
+  
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+
+        </div>
+      </div>
+      <!-- Программа обучения -->
+
+      <!-- Инфа по преподавателям -->
+      <div class="row s-mt-200">
+        <div class="col-2">
+          
+        </div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col s-main-text">
+              Ваши преподаватели
+            </div>
+          </div>
+          <div class="row row-cols-3 s-mt-100 s-mb-20 s-center">
+            <div class="col-4 s-text">
+              <div class="row row-cols-1">
+                <div class="col s-prepod-1 s-mb-50">
+                  
+                </div>
+                <div class="col s-mb-20">
+                  Дмитрий Иванов
+                </div>
+                <div class="col s-mt-20 s-grey">
+                  Специалист по видеокартам
+                </div>
+                <div class="col s-mt-50">
+                  <button type="button" class="btn s-button-3 s-text">Биография</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 s-text">
+              <div class="row row-cols-1">
+                <div class="col s-prepod-2 s-mb-50">
+                
+                </div>
+                <div class="col s-mb-20">
+                  Дмитрий Иванов
+                </div>
+                <div class="col s-mt-20 s-grey">
+                  Специалист по видеокартам
+                </div>
+                <div class="col s-mt-50">
+                  <button type="button" class="btn s-button-3 s-text">Биография</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 s-text">
+              <div class="row row-cols-1">
+                <div class="col s-prepod-3 s-mb-50">
+                  
+                </div>
+                <div class="col s-mb-20">
+                  Дмитрий Иванов
+                </div>
+                <div class="col s-mt-20 s-grey">
+                  Специалист по видеокартам
+                </div>
+                <div class="col s-mt-50">
+                  <button type="button" class="btn s-button-3 s-text">Биография</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+
+        </div>
+      </div>
+      <!-- Инфа по преподавателям -->
+
+      <!-- Feedback -->
+      <div class="row s-mt-100">
+        <div class="col-4">
+
+        </div>
+        <div class="col-4">
+          <div class="row row-cols-1">
+            <div class="col s-main-text s-text-align">
+              Статьи каждую неделю
+            </div>
+            <div class="col s-text s-mt-100 s-text-align">
+              Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+            </div>
+            <div class="col">
+              <div class="row row-cols-2 s-parent s-mt-50">
+                <input type="email" class="form-control s-form" id="exampleFormControlInput1" placeholder="E-mail">
+                <button type="button" class="btn btn-primary s-button-2 s-child">Подписаться</button>                
+              </div>              
+            </div>
+          </div>
+          <div class="col s-mt-50 s-mb-50">
+            <div class="row row-cols-4 s-icons">
+              <div class="col s-sm">
+                <a href="https://vk.com/">
+                  <img src="images/icons/vk.svg" alt="Вконтакте">
+                </a>
+              </div>
+              <div class="col s-sm"> 
+                <a href="https://www.youtube.com/">
+                  <img src="images/icons/youtube.svg" alt="Youtube">
+                </a>
+              </div>
+              <div class="col s-sm">
+                <a href="https://www.facebook.com/">
+                  <img src="images/icons/facebook.svg" alt="Facebook">
+                </a>
+              </div>
+              <div class="col s-sm">
+                <a href="https://www.instagram.com/?hl=ru">
+                  <img src="images/icons/instagram.svg" alt="Instagram">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          
+        </div>
+      </div>
+      <!-- Feedback -->
+      </div>
+    </div>
+    
+
+    let admin;
+
+  
+
 
     
 
